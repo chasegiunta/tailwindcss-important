@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss-important",
+  "version": "1.0.0",
+  "description": "!important variant plugin for tailwindcss framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasegiunta/tailwindcss-important.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "tailwindcss-plugin"
+  ],
+  "author": "chasegiunta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chasegiunta/tailwindcss-important/issues"
+  },
+  "homepage": "https://github.com/chasegiunta/tailwindcss-important#readme"
+}

@@ -31,3 +31,9 @@ experiments: {
   pluginVariants: true
 }
 ```
+
+### Purgecss
+If you're using purgecss, you'll want to update your TailwindExtractor to include `!`.
+```
+content.match(/[A-Za-z0-9-_:!\/]+/g) || [];
+```

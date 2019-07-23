@@ -26,12 +26,6 @@ require('tailwindcss-important')()
 textColors: ['responsive', 'hover', 'important'],
 ```
 
-```js
-experiments: {
-  pluginVariants: true
-}
-```
-
 ### Purgecss
 If you're using purgecss, you'll want to update your TailwindExtractor to include `!`.
 ```

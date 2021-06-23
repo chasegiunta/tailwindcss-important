@@ -19,7 +19,9 @@ Adding variants through plugins is currently an experimental feature in tailwind
 The important plugin exposes an `important` variant for you to use by prepending `!` to your class names: `!text-white hover:!bg-black`
 
 ```js
-require('tailwindcss-important')()
+  plugins: [
+    require('tailwindcss-important')(),
+  ],
 ```
 
 ```js
